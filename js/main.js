@@ -57,7 +57,7 @@ jQuery(document).ready(function($) {
     
     
     // AJAX CONTACT FORM SUBMIT
-    $("#contact-form").submit(function(e) {
+    $("#").submit(function(e) {
 
         e.preventDefault();
         var postdata = $(this).serialize();
@@ -70,25 +70,25 @@ jQuery(document).ready(function($) {
             dataType: "json",
             success: function(json) {
 
-                $("#contact-form input, #contact-form textarea").removeClass("error");
+                $("# input, # textarea").removeClass("error");
 
                 setTimeout(function(){
 
                     if (json.nameMessage !== "") {
 
-                        $("#contact-form-name").addClass("error");
+                        $("#-name").addClass("error");
 
                     }
 
                     if (json.emailMessage !== "") {
 
-                        $("#contact-form-email").addClass("error");
+                        $("#-email").addClass("error");
 
                     }
 
                     if (json.messageMessage !== "") {
 
-                        $("#contact-form-message").addClass("error");
+                        $("#-message").addClass("error");
 
                     }
 
@@ -96,10 +96,10 @@ jQuery(document).ready(function($) {
 
                 if (json.nameMessage === "" && json.emailMessage === "" && json.messageMessage === "") {
 
-                    $("#contact-form.error input, #contact-form.error textarea").removeClass("error");
-                    $('#contact-form').addClass("success");
-                    $('#contact-form textarea, #contact-form input').attr("placeholder","");
-                    $('#contact-form input, #contact-form button, #contact-form textarea').val('').prop('disabled', true);
+                    $("#.error input, #.error textarea").removeClass("error");
+                    $('#').addClass("success");
+                    $('# textarea, # input').attr("placeholder","");
+                    $('# input, # button, # textarea').val('').prop('disabled', true);
 
                 }
 
