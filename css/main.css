@@ -853,7 +853,8 @@ a:hover
     height:150px;
 }
 
-#contact-form-button {
+#contact-form-button,
+#contact-form-a {
     color: #fff;
     border-radius: 34px;
     font-size: 18px;
@@ -868,7 +869,8 @@ a:hover
     background: none !important;
 }
 
-    #contact-form-button:before {
+    #contact-form-button:before,
+    #contact-form-a:before{
         position: absolute;
         z-index: -1;
         top: 0;
@@ -880,7 +882,8 @@ a:hover
         background: #111;
     }
 
-    #contact-form-button:after {
+    #contact-form-button:after,
+    #contact-form-a:after {
         position: absolute;
         z-index: -1;
         top: 0;
@@ -894,7 +897,8 @@ a:hover
         background: #008aff;
     }
 
-    #contact-form-button:hover:after {
+    #contact-form-button:hover:after,
+    #contact-form-a:hover:after{
         width: 100%;
     }
 
