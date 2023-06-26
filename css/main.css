@@ -556,7 +556,7 @@ a:hover
 
 #service .services-list li
 {
-    font-size: 2.4rem;
+    font-size: 2.25rem;
     line-height: 3.4em;
 }
 
@@ -575,38 +575,6 @@ a:hover
     border-radius: 100px;
     background: #111;
 }
-
-/****************************************************/
-#service2 .services-list
-{
-    margin-bottom: 0;
-    padding: 0;
-
-    list-style: none;
-}
-
-#service2 .services-list li
-{
-    font-size: 2.4rem;
-    line-height: 3.4em;
-}
-
-#service2 .services-list li i
-{
-    font-size: 1.2rem;
-    line-height: 3em;
-
-    width: 3em;
-    height: 3em;
-    margin-right: 1.5em;
-
-    text-align: center;
-
-    color: #fff;
-    border-radius: 100px;
-    background: #111;
-}
-
 
 
 /** 8. Content Area --> Work
